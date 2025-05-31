@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    
+    background-color: black;
+    border: 2px solid red;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    padding: 10px 20px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 250px;
+    height: 19px;
+    margin: 0 12px 0 42px;
+    border-radius: 4px;
+    padding: 0 12px;
+
+}
+
+.slider {
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: white;
+    box-shadow: violet;
+    max-width: 91vw;
+    margin: auto;
+
+}
+
+.card h2 {
+    font-family: "Ancizar Sans", sans-serif;
+    margin: 19px 14px;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 0px 8px;
+
+}
+
+.lines {
+    margin-left: 39px;
+
+
+}
+
+.card img {
+    margin: 0 9px;
+
+}
+
+.container {
+    background-color: rgb(241, 241, 228);
+    min-height: calc(100vh - 58px - 5vh);
+}
+
+footer {
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
